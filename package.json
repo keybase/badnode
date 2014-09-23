@@ -1,6 +1,6 @@
 {
   "name": "badnode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tell if a version of Node is wonky or not",
   "main": "index.js",
   "scripts": {
