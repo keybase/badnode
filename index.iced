@@ -19,7 +19,7 @@ check_node = (v) ->
   else if not is_good_version(v) then problem = "not recommended"
 
   if not problem? then null
-  else new Error "Your version of node (#{v}) is #{problem}; please upgrade to #{suggest_version} or better"
+  else new Error "Your version of node (#{v}) is #{problem}; please upgrade, or switch with n or NVM to #{suggest_version} or better"
 
 check_node_async = (v, cb) ->
   cb check_node v
